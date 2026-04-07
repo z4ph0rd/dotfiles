@@ -1,0 +1,7 @@
+{
+"modules-right": ["network", "pulseaudio", "tray", "clock"],
+"tray": {
+    "icon-size": 21,
+    "spacing": 10
+}
+}

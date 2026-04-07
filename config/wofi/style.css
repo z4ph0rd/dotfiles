@@ -1,0 +1,54 @@
+/* Main Window */
+window {
+    background-color: #282a36; /* Replace with your @background-colour */
+    color: #f8f8f2;            /* Replace with your @foreground-colour */
+    font-family: "YourFont";    /* From your shared/fonts.rasi */
+    border-radius: 10px;       /* Matches source [33] */
+    padding-bottom: 10px;
+}
+
+/* Main Box (container for input and list) */
+#outer-box {
+    padding: 20px;             /* Matches source [44] */
+    background-color: transparent; [cite: 48]
+}
+
+/* Input Bar (Search area) */
+#input {
+    margin: 0px 0px 10px 0px;  /* Matches source [52] */
+    padding: 5px 10px;         /* Matches source [53] */
+    border-radius: 10px;       /* Matches source [55] */
+    border: none;
+    background-color: #44475a; /* Replace with your @alternate-background */ [cite: 57]
+    color: inherit;            /* Matches source [58] */
+}
+
+/* List View */
+#scroll {
+    margin: 0px;               /* Matches source [103] */
+    padding: 10px;             /* Matches source [104] */
+}
+
+/* Individual List Entries */
+#entry {
+    padding: 6px;              /* Matches source [118] */
+    border-radius: 6px;        /* Matches source [120] */
+    margin: 2px 0px;           /* Replaces spacing: 5px from source [102] */
+}
+
+/* Icons */
+#img {
+    margin-right: 10px;        /* Matches spacing: 10px from source [116] */
+    width: 24px;               /* Matches source [150] */
+    height: 24px;              /* Matches source [150] */
+}
+
+/* Selected Entry State */
+#entry:selected {
+    background-color: #44475a; /* Replace with your @selected-normal-background */ [cite: 133]
+    border: 0px 2px 2px 0px solid #50fa7b; /* Matches source [134, 135] */
+}
+
+#text:selected {
+    color: #50fa7b;            /* Matches your selected text highlight */ [cite: 154]
+}
